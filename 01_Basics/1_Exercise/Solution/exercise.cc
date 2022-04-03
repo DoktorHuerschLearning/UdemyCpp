@@ -10,11 +10,11 @@ void mod_cross_sum(int I, int J)
         {
             if (((i + j) % 2) == 1)
             {
-                std::cout << "i: " << i << " , j: " << j << " := Ungerade!" << std::endl;
+                std::cout << "i: " << i << " , j: " << j << " := Sum ungerade!" << std::endl;
             }
             else
             {
-                std::cout << "i: " << i << " , j: " << j << " := Gerade!" << std::endl;
+                std::cout << "i: " << i << " , j: " << j << " := Sum gerade!" << std::endl;
             }
         }
     }
